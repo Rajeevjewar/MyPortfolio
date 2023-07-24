@@ -1,0 +1,132 @@
+/* #333333  
+   #9A9A9A
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #161616;
+  font-family: "Outfit", sans-serif;
+  margin: 1.2rem 15rem 8rem 15rem;
+}
+/**************************/
+/* GENERAL CSS */
+/**************************/
+/* .container {
+  max-width: 1440rem;
+  margin: 0 auto;
+  padding: 0 9.6rem;
+} */
+.primary-heading {
+  font-size: 5.6rem;
+  margin: 1.2rem 18rem 3.2rem 18rem;
+  font-weight: 500;
+  color: #fff;
+}
+.secondary-heading {
+  font-size: 3.2rem;
+}
+.tertiary-heading {
+  font-size: 2rem;
+}
+.common-text {
+  font-size: 1.4rem;
+  color: #9a9a9a;
+}
+/**************************/
+/* HEADER */
+/**************************/
+
+.header {
+  border-bottom: 0.5px solid #333333;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+.social-connect:link,
+.social-connect:visited,
+.header-contact:link,
+.header-contact:visited {
+  display: flex;
+  align-items: center;
+  color: #9a9a9a;
+  text-decoration: none;
+  font-size: 1.4rem;
+  gap: 1.2rem;
+  transition: all 0.4s;
+}
+.social-connect:hover,
+.social-connect:active,
+.header-contact:hover,
+.header-contact:active {
+  color: #dadada;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/**************************/
+/* HERO SECTION */
+/**************************/
+.section-hero {
+  /* margin: 9.6rem; */
+  /* margin: 9.6rem 9.6rem 0 9.6rem; */
+  border-bottom: 0.5px solid #333333;
+}
+.hero-content {
+  text-align: center;
+  margin: 9.6rem 9.6rem 0 9.6rem;
+  margin-bottom: 15.2rem;
+}
+.profile {
+  height: 10.8rem;
+  margin-bottom: 1.2rem;
+}
+.name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.hello-hand {
+  height: 1.6rem;
+}
+.main-btn {
+  /* display: flex;
+  justify-content: center; */
+}
+.main-social:link,
+.main-social:visited {
+  display: inline-flex;
+  padding: 1.6rem 3.2rem;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+  border: 0.5px solid #333;
+  background: #1a1a1a;
+
+  font-size: 1.4em;
+  text-decoration: none;
+  gap: 0.6rem;
+  background-color: #1a1a1a;
+  color: #9a9a9a;
+  gap: 0.6rem;
+  padding: 1.6rem 3.2rem;
+  border: 0.5px solid #333333;
+}
+.arrow-icon {
+  height: 1.5rem;
+  width: 1.4rem;
+}
