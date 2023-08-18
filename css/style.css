@@ -16,6 +16,7 @@ body {
   font-family: "Outfit", sans-serif;
   margin: 1.2rem 15rem 8rem 15rem;
 }
+
 /**************************/
 /* GENERAL CSS */
 /**************************/
@@ -24,14 +25,22 @@ body {
   margin: 0 auto;
   padding: 0 9.6rem;
 } */
+.gradient {
+  background-image: linear-gradient(to right, #dedede, #606060);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 .primary-heading {
   font-size: 5.6rem;
   margin: 1.2rem 18rem 3.2rem 18rem;
   font-weight: 500;
-  color: #fff;
 }
 .secondary-heading {
   font-size: 3.2rem;
+  font-weight: 400;
 }
 .tertiary-heading {
   font-size: 2rem;
@@ -129,4 +138,14 @@ body {
 .arrow-icon {
   height: 1.5rem;
   width: 1.4rem;
+}
+.section-work {
+  margin: 12.8rem 0;
+}
+.secondary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 26rem;
+  text-align: center;
 }
